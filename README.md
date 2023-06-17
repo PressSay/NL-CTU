@@ -73,7 +73,7 @@ configuration in .env ill in the blanks for following code below:\
 `` ;extension=mysqli ``\
 `` ;extension=pdo_mysql ``
 - /etc/php/version/cli/php.ini for ubuntu, version can be 8.1, 7.x, ....
-- /etc/php/php.ini
+- /etc/php/php.ini for arch
 - Note: You can use another sql not necessarily mysql.
 
 #### migrate database:
@@ -81,8 +81,17 @@ configuration in .env ill in the blanks for following code below:\
 `` php artisan migrate:fresh --seed `` for create table and fake data.\
 `` php artisan migrate:fresh `` for create table
 
-#### open 2 terminal:
+### Run Project:
+
+#### The first way
+
+
+open 2 terminal:
 - first terminal run:\
 `` php artisan serve ``
 - second terminal run:\
 `` php artisan websockets:serve ``
+
+#### The second way
+
+**deploy them in nginx or apache, do it yourself**
