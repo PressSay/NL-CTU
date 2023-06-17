@@ -1,0 +1,132 @@
+{
+  "__commonjsHelpers-3c9a3002.js": {
+    "file": "assets/_commonjsHelpers-3c9a3002.js"
+  },
+  "_axios-4a70c6fc.js": {
+    "file": "assets/axios-4a70c6fc.js"
+  },
+  "_bootstrap-359a5dbc.js": {
+    "file": "assets/bootstrap-359a5dbc.js",
+    "imports": [
+      "_axios-4a70c6fc.js"
+    ]
+  },
+  "_echo-5cb52505.js": {
+    "file": "assets/echo-5cb52505.js",
+    "imports": [
+      "__commonjsHelpers-3c9a3002.js"
+    ]
+  },
+  "_uploadImage-414df52d.js": {
+    "file": "assets/uploadImage-414df52d.js",
+    "imports": [
+      "_bootstrap-359a5dbc.js"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-bec156da.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-84bd9784.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/categoryPost.js": {
+    "file": "assets/categoryPost-0bae0fa4.js",
+    "imports": [
+      "_bootstrap-359a5dbc.js",
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/categoryPost.js"
+  },
+  "resources/js/forum.js": {
+    "file": "assets/forum-86937369.js",
+    "imports": [
+      "_echo-5cb52505.js",
+      "_uploadImage-414df52d.js",
+      "__commonjsHelpers-3c9a3002.js",
+      "_bootstrap-359a5dbc.js",
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/forum.js"
+  },
+  "resources/js/newThread.js": {
+    "file": "assets/newThread-4c17bdba.js",
+    "imports": [
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/newThread.js"
+  },
+  "resources/js/notification.js": {
+    "file": "assets/notification-9223c06d.js",
+    "imports": [
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/notification.js"
+  },
+  "resources/js/recentThread.js": {
+    "file": "assets/recentThread-c765d7f0.js",
+    "imports": [
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/recentThread.js"
+  },
+  "resources/js/shop.js": {
+    "file": "assets/shop-44f0d8d1.js",
+    "imports": [
+      "_axios-4a70c6fc.js",
+      "_uploadImage-414df52d.js",
+      "__commonjsHelpers-3c9a3002.js",
+      "_bootstrap-359a5dbc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/shop.js"
+  },
+  "resources/js/threadComment.js": {
+    "file": "assets/threadComment-4ce6fa86.js",
+    "imports": [
+      "_uploadImage-414df52d.js",
+      "_echo-5cb52505.js",
+      "_axios-4a70c6fc.js",
+      "_bootstrap-359a5dbc.js",
+      "__commonjsHelpers-3c9a3002.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/threadComment.js"
+  },
+  "resources/js/threadPost.js": {
+    "file": "assets/threadPost-06a9143f.js",
+    "imports": [
+      "_uploadImage-414df52d.js",
+      "_bootstrap-359a5dbc.js",
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/threadPost.js"
+  },
+  "resources/js/threadUser.js": {
+    "file": "assets/threadUser-aee6faea.js",
+    "imports": [
+      "_bootstrap-359a5dbc.js",
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/threadUser.js"
+  },
+  "resources/js/threads.js": {
+    "file": "assets/threads-f3b0a7b5.js",
+    "imports": [
+      "_bootstrap-359a5dbc.js",
+      "_axios-4a70c6fc.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/threads.js"
+  }
+}
