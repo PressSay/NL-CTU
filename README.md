@@ -57,7 +57,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 `` PUSHER_HOST=127.0.0.1 #this ip can be change ``\
 `` PUSHER_PORT=6001 ``\
 `` PUSHER_SCHEME=http ``\
-`` PUSHER_APP_CLUSTER=mt1 ``\
+`` PUSHER_APP_CLUSTER=mt1 ``
 - mail:
 go to google search "`` mailtrap for laravel ``" then follow the instructions
 - database:
