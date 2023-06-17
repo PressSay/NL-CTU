@@ -19,7 +19,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 #### dependencies:
 `` sudo apt-get remove --purge php-common ``\
 `` sudo apt-get update ``\
-`` sudo apt-get install php-dom php-common php-mysql php-cli ``
+`` sudo apt-get install php-dom php-common php-mysql php-cli ``\
+`` sudo apt-get install php-curl ``
 
 
 
@@ -27,11 +28,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 `` sudo apt-get install phpVersion-mbstring ``
 - Note: example for phpVersion-mbstring is php8.1-mbstring
 
-#### setup node
+#### setup node and composer
 - in project folder:\
 `` npm install ``\
+`` composer require pusher/pusher-php-server ^7.1 --ignore-platform-reqs ``\
+`` sudo rm  composer.lock ``\
 `` composer update ``\
-`` npm run build ``
+`` npm run build ``\
+`` composer install --ignore-platform-reqs ``
+
 - Note: use nodejs version 18 or higher
 
 
@@ -71,7 +76,8 @@ configuration in .env fill in the blanks for following code below:\
 
 #### uncomment following in your /etc/php/version/cli/php.ini:
 `` ;extension=mysqli ``\
-`` ;extension=pdo_mysql ``
+`` ;extension=pdo_mysql ``\
+`` ;extension=gd ``
 - /etc/php/version/cli/php.ini for ubuntu, version can be 8.1, 7.x, ....
 - /etc/php/php.ini for arch
 - Note: You can use another sql not necessarily mysql.
