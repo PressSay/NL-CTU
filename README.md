@@ -20,7 +20,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 `` sudo apt-get remove --purge php-common ``\
 `` sudo apt-get update ``\
 `` sudo apt-get install php-dom php-common php-mysql php-cli ``\
-`` sudo apt-get install php-curl ``
+`` sudo apt-get install php-curl php-gd ``
 
 
 
