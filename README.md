@@ -56,7 +56,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - mail:
 go to google search "`` mailtrap for laravel ``" then follow the instructions
 - database:
-configuration in .env ill in the blanks for following code below:\
+configuration in .env fill in the blanks for following code below:\
 `` DB_CONNECTION=mysql #this driver can be change ``\
 `` DB_HOST=127.0.0.1 #this ip can be change ``\
 `` DB_PORT=3306 ``\
