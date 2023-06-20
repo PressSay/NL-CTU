@@ -47,7 +47,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 #### setup .env:
 - run shell:
 `` cp .env.example .env ``
-- append following lines under into .env:\
+- append following lines below into .env:\
 `` PUSHER_APP_ID=livepost ``\
 `` PUSHER_APP_KEY=livepost_key ``\
 `` PUSHER_APP_SECRET=livepost_secret ``\
