@@ -22,11 +22,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 `` sudo apt-get install php-dom php-common php-mysql php-cli ``\
 `` sudo apt-get install php-curl php-gd ``
 
-
-
 #### mbstring:
 `` sudo apt-get install phpVersion-mbstring ``
 - Note: example for phpVersion-mbstring is php8.1-mbstring
+
+
+### Setup Environment For Arch
+
+<a href="https://wiki.archlinux.org">wiki.archlinux.org</a>
+
+### Setup for run project:
 
 #### setup node and composer
 - in project folder:\
@@ -38,14 +43,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 `` composer install --ignore-platform-reqs ``
 
 - Note: use nodejs version 18 or higher
-
-
-
-### Setup Environment For Arch
-
-<a href="https://wiki.archlinux.org">wiki.archlinux.org</a>
-
-### Setup for run project:
 
 #### setup .env:
 - run shell:
